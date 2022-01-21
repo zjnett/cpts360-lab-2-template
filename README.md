@@ -14,7 +14,10 @@ Autotests are run on your code when you push to check if it is compiling or not.
 ```
 cd src && ./mk
 ```
-Note this should both compile and execute your program.
+```
+cd src && rm a.out && ./mk && ls
+```
+Note this should just compile your program. Please **do not** add a.out to this script-- as you will not pass the autotest (as your program most likely needs user input).
 
 You may confirm if your latest commit is passing the autotests by going to your online repositoy (after performing a `git push`) and going to the "Actions" tab-- the top commit should have a green check mark next to it if it is passing.
 

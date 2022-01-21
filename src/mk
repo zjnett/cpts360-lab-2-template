@@ -11,5 +11,3 @@
 # Therefore, the -m32 flag has been omitted below.
 
 gcc t.c
-
-./a.out
